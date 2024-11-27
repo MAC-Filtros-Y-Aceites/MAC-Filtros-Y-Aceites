@@ -7,6 +7,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%; 
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 header {
@@ -155,6 +158,34 @@ header img {
     color: #333;
     text-align: center;
 }
+.compromiso-responsabilidad-honestidad-container {
+    display: flex;
+    flex-direction: row; /* Los elementos estarán en fila por defecto */
+    justify-content: space-between; /* Espacio entre Misión y Visión */
+    gap: 1rem;
+    margin-top: 1.5rem;
+    width: 100%; /* Asegura que ocupe todo el espacio disponible */
+}
+
+#compromiso,#responsabilidad,#honestidad {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ocupa el 48% del ancho disponible */
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #333;
+    text-align: center;
+}
+
+.section img {
+    display: block; /* Hace que el elemento img sea un bloque, lo que permite usar margin auto */
+    margin: 0 auto 10px; /* Centra la imagen y añade margen inferior */
+    width: 150px; /* Tamaño uniforme para todas las imágenes */
+    height: 150px; /* Tamaño uniforme para todas las imágenes */
+    object-fit: contain; /* Mantiene las proporciones de la imagen */
+}
 
 .boton {
     display: flex; justify-content: center; /* Centra horizontalmente */
@@ -164,13 +195,6 @@ header img {
     width: 400px; /* Ancho específico */
     height: 300px; /* Altura específica */
 }
-
-
-
-
-
-
-
 
 /*PRODUCTOS*/
 nav {
@@ -196,12 +220,15 @@ nav a:hover {
 .container {
     text-align: center;
     background-color: #fff;
-    padding: 0 0 0 0;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 100%; /* Ajustado para asegurar que no haya límite de ancho máximo */
     margin-top: 20px;
+    margin-left: 0; /* Cambiado de 'none' a '0' */
+    margin-right: 0; /* Cambiado de 'none' a '0' */
+    overflow-x: hidden; /* Oculta cualquier desbordamiento horizontal */
 }
 
 .product {
@@ -244,16 +271,13 @@ nav a:hover {
 .colored-section {
     background-color: #1f6db3; /* Cambia este color a tu preferencia */
     padding: 50px; /* Ajusta el relleno según sea necesario */
-    color: #fff; /* Color del texto dentro de esta sección */
     margin-top: 60px;
-
-    display: flex; /* Usamos flexbox */
-    flex-direction: column;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;
-    text-align: center;
 }
-
+.colored-section h2 {
+    color: #ffffff; /* Color del título de la sección */
+    font-size: 30px; /* Tamaño de la fuente del título */
+    margin-bottom: 20px; /* Espacio inferior debajo del título */
+}
 .content-section {
     padding: 50px;
 }
@@ -288,6 +312,90 @@ nav a:hover {
 
 .product-info p {
     margin: 10px 0;
+}
+
+.product-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1C70B8;
+    border-radius: 0px;
+    padding: 1px;
+    margin-bottom: 15px;
+}
+
+.search-bar {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre los elementos */
+    flex: 0 0 40%;
+    justify-content: flex-end;
+}
+
+.search-bar input {
+    width: 100%; /* Ancho completo */
+    max-width: 400px; /* Ancho máximo */
+    padding: 12px 20px; /* Relleno interno */
+    margin: 8px 0; /* Margen externo */
+    border: 1px solid #ccc; /* Borde delgado y gris */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del input */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-bar button {
+    background-color: #1C70B8; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 12px 24px; /* Relleno */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor en forma de mano */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.search-bar button:hover {
+    background-color: #154e84; /* Azul más oscuro */
+}
+
+.search-bar button:active {
+    background-color: #144d76; /* Color de fondo al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra al hacer clic */
+    transform: translateY(2px); /* Movimiento hacia abajo al hacer clic */
+}
+
+.category-button {
+    background-color: #1C70B8; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 12px 24px; /* Relleno */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor en forma de mano */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.filters{
+    flex: 0 0 60%;
+    margin-left: auto;
+}
+
+.filters button:active {
+    background-color: #144d76; /* Color de fondo al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra al hacer clic */
+    transform: translateY(2px); /* Movimiento hacia abajo al hacer clic */
+}
+
+.category-button:hover {
+    background-color: #154e84; /* Azul más oscuro */
 }
 
 .whatsapp-button, .back-button {
@@ -347,15 +455,14 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
-
 /*MOSTRAR IMAGENES EN EL CARRUSEL*/
 footer p {
     margin: 5px 0;
 }
 .carousel-container {
     width: 100%;
-    max-width: 800px;
-    height: 500px;
+    max-width: 1000px;
+    height: 600px;
     border-radius: 20px;
     position: relative;
     margin: auto;
@@ -395,9 +502,23 @@ footer p {
 .next { right: 10px; }
 
 /*testimonios*/
+.colored-section {
+    background-color: #1f6db3; /* Cambia este color a tu preferencia */
+    padding: 50px; /* Ajusta el relleno según sea necesario */
+    margin-top: 60px;
+}
+.colored-section h2 {
+    color: #ffffff; /* Color del título de la sección */
+    font-size: 27px; /* Tamaño de la fuente del título */
+    margin-bottom: 20px; /* Espacio inferior debajo del título */
+}
+.content-section {
+    padding: 50px;
+}
+
 .testimonials-container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 20px auto 20px;
     padding: 20px;
     text-align: center;
@@ -406,7 +527,7 @@ footer p {
 
 .testimonials-row {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-wrap: nowrap; /* Permite ajustar los elementos si es necesario */
     overflow-x: auto;
     gap: 10px;
@@ -427,7 +548,7 @@ footer p {
 
 .testimonial img {
     width: 120px; /* Ajusta el tamaño de las imágenes */
-    height: 150px;
+    height: 130px;
     margin-right: 10px;
     float: left; /* Alinea la imagen a la izquierda */
 }
@@ -449,24 +570,21 @@ footer p {
 }
 
 /*PIE DE PAGINA*/
-body {
-    font-family: Arial, sans-serif;
-}
 
 .footer {
     background-color: #1f6db3;
     color: white;
     text-align: center;
+    padding: 20px 0;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 10px 20px;
+    justify-content: center;
+    align-items: stretch;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .footer-section {
@@ -589,162 +707,42 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 18px;
 }
-
-/*CARRUSEL*/
-
-.container {
-    padding: 2rem;
+/*MARCAS QUE COMERCIALIZAMOS*/
+.marcas-section {
+    background-color: #cfe7f8; /* Color de fondo para la sección de marcas */
+    padding: 50px 20px; /* Añade relleno a la sección */
+    text-align: center;
+    margin-top: 40px; /* Espacio superior para la separación de otras secciones */
+    width: 100%; /* Abarca todo lo horizontal */
+    margin-left: 0; /* Elimina cualquier margen izquierdo */ 
+    margin-right: 0; /* Elimina cualquier margen derecho */ 
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
 }
 
-.slider-wrapper {
-    position: relative;
-    max-width: 60rem;
-    margin: 0 auto;
+.marcas-section h2 {
+    color: #1f6db3; /* Color del título de la sección */
+    font-size: 30px; /* Tamaño de la fuente del título */
+    margin-bottom: 20px; /* Espacio inferior debajo del título */
 }
 
-.slider {
+.marcas-container {
     display: flex;
-    aspect-ratio: 16/9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
-    border-radius: 1rem;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas */
+    justify-content: center; /* Centra los elementos dentro del contenedor */
+    width: 100%; /* Abarca todo lo horizontal */
+    margin-left: 0; /* Elimina cualquier margen izquierdo */ 
+    margin-right: 0; /* Elimina cualquier margen derecho */ 
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
 }
 
-.slide {
-    display: flex;
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    align-items: center;
+.marca {
+    margin: 40px; /* Espacio alrededor de cada contenedor de marca */
 }
 
-.slide img {
-    flex: 0 0 50%;
-    max-width: 100%;
-    max-height: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.15);
+.marca img {
+    width: 300px; /* Tamaño fijo para la imagen */
+    height: 300x; /* Tamaño fijo para la imagen */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Añade borde redondeado a las imágenes */
 }
 
-.slide-text {
-    flex: 1;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 0 1rem 1rem 0;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.15);
-}
-
-.slider-nav {
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-.slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 0.75;
-    transition: opacity ease 0.25s;
-}
-
-.slider-nav a:hover {
-    opacity: 1;
-}
-
-
-
-
-
-.product-form{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #1C70B8;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 1px;
-    margin-bottom: 15px;
-}
-
-.search-bar {
-    margin: 20px 20px 20px 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Espacio entre los elementos */
-    flex: 0 0 40%;
-    justify-content: flex-end;
-}
-
-.search-bar input {
-    width: 100%; /* Ancho completo */
-    max-width: 400px; /* Ancho máximo */
-    padding: 12px 20px; /* Relleno interno */
-    margin: 8px 0; /* Margen externo */
-    border: 1px solid #ccc; /* Borde delgado y gris */
-    border-radius: 4px; /* Bordes redondeados */
-    box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total */
-    font-size: 16px; /* Tamaño de la fuente */
-    font-family: Arial, sans-serif; /* Familia de fuentes */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del input */
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.search-bar button {
-    background-color: #1C70B8; /* Color de fondo */
-    color: white; /* Color del texto */
-    border: none; /* Sin borde */
-    padding: 12px 24px; /* Relleno */
-    font-size: 16px; /* Tamaño de la fuente */
-    font-family: Arial, sans-serif; /* Familia de fuentes */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cursor en forma de mano */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
-}
-
-.search-bar button:hover {
-    background-color: #154e84; /* Azul más oscuro */
-}
-
-.search-bar button:active {
-    background-color: #144d76; /* Color de fondo al hacer clic */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra al hacer clic */
-    transform: translateY(2px); /* Movimiento hacia abajo al hacer clic */
-}
-
-.category-button {
-    background-color: #1C70B8; /* Color de fondo */
-    color: white; /* Color del texto */
-    border: none; /* Sin borde */
-    padding: 12px 24px; /* Relleno */
-    font-size: 16px; /* Tamaño de la fuente */
-    font-family: Arial, sans-serif; /* Familia de fuentes */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cursor en forma de mano */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
-}
-
-.filters{
-    flex: 0 0 60%;
-    margin-left: auto;
-}
-
-.filters button:active {
-    background-color: #144d76; /* Color de fondo al hacer clic */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra al hacer clic */
-    transform: translateY(2px); /* Movimiento hacia abajo al hacer clic */
-}
-
-.category-button:hover {
-    background-color: #154e84; /* Azul más oscuro */
-}
