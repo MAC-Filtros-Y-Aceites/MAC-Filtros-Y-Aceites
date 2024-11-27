@@ -271,24 +271,17 @@ nav a:hover {
 .colored-section {
     background-color: #1f6db3; /* Cambia este color a tu preferencia */
     padding: 50px; /* Ajusta el relleno según sea necesario */
-    color: #fff; /* Color del texto dentro de esta sección */
     margin-top: 60px;
 }
-
+.colored-section h2 {
+    color: #ffffff; /* Color del título de la sección */
+    font-size: 30px; /* Tamaño de la fuente del título */
+    margin-bottom: 20px; /* Espacio inferior debajo del título */
+}
 .content-section {
     padding: 50px;
 }
 
-.colored-section2 {
-    background-color: #e10b17; /* Cambia este color a tu preferencia */
-    padding: 50px; /* Ajusta el relleno según sea necesario */
-    color: #fff; /* Color del texto dentro de esta sección */
-    margin-top: 60px;
-}
-
-.content-section2 {
-    padding: 50px;
-}
 /* Elimina los márgenes y el padding de los botones */
 
 .hidden {
@@ -509,6 +502,20 @@ footer p {
 .next { right: 10px; }
 
 /*testimonios*/
+.colored-section {
+    background-color: #1f6db3; /* Cambia este color a tu preferencia */
+    padding: 50px; /* Ajusta el relleno según sea necesario */
+    margin-top: 60px;
+}
+.colored-section h2 {
+    color: #ffffff; /* Color del título de la sección */
+    font-size: 27px; /* Tamaño de la fuente del título */
+    margin-bottom: 20px; /* Espacio inferior debajo del título */
+}
+.content-section {
+    padding: 50px;
+}
+
 .testimonials-container {
     width: 100%;
     max-width: 1200px;
@@ -541,7 +548,7 @@ footer p {
 
 .testimonial img {
     width: 120px; /* Ajusta el tamaño de las imágenes */
-    height: 150px;
+    height: 130px;
     margin-right: 10px;
     float: left; /* Alinea la imagen a la izquierda */
 }
@@ -554,11 +561,6 @@ footer p {
     font-size: 20px;
     color: #333;
     margin: 0; /* Elimina el margen para evitar espacios innecesarios */
-}
-
-.testimonial h2 {
-    font-size: 5px;
-    color: #555
 }
 
 .testimonial h4 {
