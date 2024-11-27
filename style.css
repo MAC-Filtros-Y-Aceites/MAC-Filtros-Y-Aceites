@@ -158,6 +158,34 @@ header img {
     color: #333;
     text-align: center;
 }
+.compromiso-responsabilidad-honestidad-container {
+    display: flex;
+    flex-direction: row; /* Los elementos estarán en fila por defecto */
+    justify-content: space-between; /* Espacio entre Misión y Visión */
+    gap: 1rem;
+    margin-top: 1.5rem;
+    width: 100%; /* Asegura que ocupe todo el espacio disponible */
+}
+
+#compromiso,#responsabilidad,#honestidad {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ocupa el 48% del ancho disponible */
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #333;
+    text-align: center;
+}
+
+.section img {
+    display: block; /* Hace que el elemento img sea un bloque, lo que permite usar margin auto */
+    margin: 0 auto 10px; /* Centra la imagen y añade margen inferior */
+    width: 150px; /* Tamaño uniforme para todas las imágenes */
+    height: 150px; /* Tamaño uniforme para todas las imágenes */
+    object-fit: contain; /* Mantiene las proporciones de la imagen */
+}
 
 .boton {
     display: flex; justify-content: center; /* Centra horizontalmente */
@@ -550,7 +578,7 @@ footer p {
 
 .footer-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: stretch;
     max-width: 1200px;
     margin: 0 auto;
