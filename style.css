@@ -469,14 +469,28 @@ footer p {
     overflow: hidden;
 }
 .carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Asegura que el contenedor de las imágenes ocupe todo el ancho disponible */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    display: flex; /* Utiliza flexbox para una alineación adecuada de las imágenes */
+    justify-content: center; /* Centra las imágenes dentro del contenedor */
+    position: relative; /* Necesario para el posicionamiento absoluto de las imágenes */
 }
+
+.carousel-slide a {
+    width: 100%; /* Asegura que los enlaces ocupen todo el ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    position: absolute; /* Posiciona los enlaces de forma absoluta dentro del contenedor */
+    top: 0; /* Alinea la parte superior de los enlaces con la parte superior del contenedor */
+    left: 0; /* Alinea la parte izquierda de los enlaces con la parte izquierda del contenedor */
+    display: none; /* Oculta los enlaces por defecto */
+}
+
 .carousel-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área del contenedor */
 }
+
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -741,7 +755,7 @@ footer p {
 
 .marca img {
     width: 300px; /* Tamaño fijo para la imagen */
-    height: 300x; /* Tamaño fijo para la imagen */
+    height: 300px; /* Tamaño fijo para la imagen */
     object-fit: contain; /* Mantiene la proporción de la imagen */
     border-radius: 5px; /* Añade borde redondeado a las imágenes */
 }
