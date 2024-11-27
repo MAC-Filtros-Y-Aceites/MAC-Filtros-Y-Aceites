@@ -276,9 +276,9 @@ var products = {
     },
     38: {
         img: 'img/GRASA-SAE50.png',
-        title: 'Aceite SAE50',
+        title: 'Valvulinas SAE50',
         category: 'aceites',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>La grasa SAE 50 es un tipo de lubricante de alta viscosidad, ideal para aplicaciones que requieren una excelente protección y durabilidad en condiciones extremas de temperatura y carga. Se utiliza comúnmente en motores de vehículos pesados, maquinaria industrial y equipos que operan bajo cargas pesadas y altas temperaturas.<br><br><strong>BENEFICIOS</strong><br><br>La grasa SAE 50 es un lubricante de alta viscosidad ideal para proteger componentes en condiciones extremas de temperatura y carga. Ofrece una excelente estabilidad térmica, reduce la fricción, previene la oxidación y es versátil, adecuada para diversas aplicaciones industriales y de vehículos pesados.<br><br><strong>TAMAÑO:</strong> Un litro'
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>La valvulina SAE 50 es un tipo de lubricante de alta viscosidad, ideal para aplicaciones que requieren una excelente protección y durabilidad en condiciones extremas de temperatura y carga. Se utiliza comúnmente en motores de vehículos pesados, maquinaria industrial y equipos que operan bajo cargas pesadas y altas temperaturas.<br><br><strong>BENEFICIOS</strong><br><br>La grasa SAE 50 es un lubricante de alta viscosidad ideal para proteger componentes en condiciones extremas de temperatura y carga. Ofrece una excelente estabilidad térmica, reduce la fricción, previene la oxidación y es versátil, adecuada para diversas aplicaciones industriales y de vehículos pesados.<br><br><strong>TAMAÑO:</strong> Un litro'
     },
     39: {
         img: 'img/GRASA-ROD.png',
