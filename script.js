@@ -355,31 +355,3 @@ function showSection(sectionId) {
 }
 document.addEventListener('DOMContentLoaded', () => showSection('inicio'));
 
-//Carrusel
-function moveSlide(step) {
-    const slides = document.querySelectorAll('.slider img');
-    const totalSlides = slides.length;
-
-    // Actualizamos el índice
-    index += step;
-
-    // Aseguramos que el índice no sea mayor al número de imágenes o menor que 0
-    if (index >= totalSlides) {
-        index = 0; // Volver al inicio
-    } else if (index < 0) {
-        index = totalSlides - 1; // Volver al final
-    }
-
-    // Realizamos la animación deslizante
-    const slider = document.querySelector('.slider');
-    slider.style.transform = `translateX(${-index * 100}%)`; // Mueve el slider al índice correspondiente
-}
-document.getElementById("menu-toggle").addEventListener("click", function() {
-    var navLinks = document.getElementById("nav-links");
-    if (navLinks.classList.contains("nav-open")) {
-        navLinks.classList.remove("nav-open");
-    } else {
-        navLinks.classList.add("nav-open");
-    }
-});
-
