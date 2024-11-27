@@ -19,63 +19,63 @@ var products = {
         img: 'img/DA-223.png',
         title: 'Filtro de aceite A223',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE ACEITE FLUJO COMPLETO, ENROSCABLE.<br><br><strong>MARCAS:</strong> CHERY, CHEVROLET, FORD, JEEP, MCCORMICK, SKODA, SULLAIR, SUNWARD, SUZUKI, TOYOTA, VOLKSWAGEN.',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aceite flujo completo, enroscable.<br><br><strong>MARCAS:</strong> CHERY, CHEVROLET, FORD, JEEP, MCCORMICK, SKODA, SULLAIR, SUNWARD, SUZUKI, TOYOTA, VOLKSWAGEN.',
         additionalImg: 'img/DA-223-A.png'  // Imagen adicional
     },
     2: {
         img: 'img/DA-1402.png',
         title: 'Filtro de aceite A1402',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE ACEITE FLUJO COMPLETO, ENROSCABLE.<br><br><strong>MARCAS:</strong> CASE/CASE IH, CITROEN, DEUTZ-FAHR, FIAT, GREAT WALL, HITACHI, HONDA, HUERLIMANN TRACTORS, HYUNDAI, IHI, JAC, KOMATSU, MASSEY FERGUSON, MAZDA, MITSUBISHI, NEUSON, NISSAN, POLARIS, SAME, TORO, YANMAR.',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aceite flujo completo, enroscable.<br><br><strong>MARCAS:</strong> CASE/CASE IH, CITROEN, DEUTZ-FAHR, FIAT, GREAT WALL, HITACHI, HONDA, HUERLIMANN TRACTORS, HYUNDAI, IHI, JAC, KOMATSU, MASSEY FERGUSON, MAZDA, MITSUBISHI, NEUSON, NISSAN, POLARIS, SAME, TORO, YANMAR.',
         additionalImg: 'img/DA-1402-A.png'  // Imagen adicional
     },
     3: {
         img: 'img/DA-4054SP.png',
         title: 'Filtro de aceite A4054SP',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE COMBUSTIBLE SECUNDARIO, ENROSCABLE.<br><br><strong>',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de combustible secundario, enroscable.<br><br><strong>',
         additionalImg: 'img/DA-4054SP-A.png'  // Imagen adicional
     },
     4: {
         img: 'img/DA-3603.png',
         title: 'Filtro de aceite A3603',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE ACEITE FLUJO COMPLETO, ENROSCABLE.<br><br><strong>',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aceite flujo completo, enroscable.<br><br><strong>',
         additionalImg: 'img/DA-3603-A.png'  // Imagen adicional
     },
     5: {
         img: 'img/DA-4271SP.png',
         title: 'Filtro de aceite A4271SP',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE ACEITE FLUJO COMPLETO, ENROSCABLE.<br><br><strong>MARCAS:</strong> CHEVROLET, JMC.',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aceite flujo completo, enroscable.<br><br><strong>MARCAS:</strong> CHEVROLET, JMC.',
         additionalImg: 'img/DA-4271SP-A.png'  // Imagen adicional
     },
     6: {
         img: 'img/DA-14476.png',
         title: 'Filtro de aceite A14476',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE ACEITE FLUJO COMPLETO, ENROSCABLE.<br><br><strong>MARCAS:</strong> BYD, CASE/CASE IH, CHERY, CHEVROLET, DAIHATSU, GEELY, GREAT WALL, ISEKI, JOHN DEERE, KAWASAKI, NISSAN, SIMPLICITY, TOYOTA, ZOTIE.',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aceite flujo completo, enroscable.<br><br><strong>MARCAS:</strong> BYD, CASE/CASE IH, CHERY, CHEVROLET, DAIHATSU, GEELY, GREAT WALL, ISEKI, JOHN DEERE, KAWASAKI, NISSAN, SIMPLICITY, TOYOTA, ZOTIE.',
         additionalImg: 'img/DA-14476-A.png'  // Imagen adicional
     },
     7: {
         img: 'img/DAP3450.png',
         title: 'Filtro de aceite AP3450',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE AIRE PRIMARIO, PANEL RÍGIDO.<br><br><strong>MARCAS:</strong> CHEVROLET.',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aire primario, panel rígido.<br><br><strong>MARCAS:</strong> CHEVROLET.',
         additionalImg: 'img/DAP3450-A.png'  // Imagen adicional
     },
     8: {
         img: 'img/DAP16550.png',
         title: 'Filtro de aceite AP16550',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE AIRE PRIMARIO, CILINDRICO.<br><br><strong>MARCAS:</strong>',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aire primario, cilíndrico.<br><br><strong>MARCAS:</strong>',
         additionalImg: 'img/DAP16550-A.png'  // Imagen adicional
     },
     9: {
         img: 'img/DAPC010.png',
         title: 'Filtro de aceite APC010',
         category: 'filtros',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>FILTRO DE AIRE PRIMARIO, CILÍNDRICO.<br><br><strong>MARCAS:</strong> FORD, MAZDA, TOYOTA.',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>Filtro de aire primario, cilíndrico.<br><br><strong>MARCAS:</strong> FORD, MAZDA, TOYOTA.',
         additionalImg: 'img/DAPC010-A.png'  // Imagen adicional
     },
     10: {
