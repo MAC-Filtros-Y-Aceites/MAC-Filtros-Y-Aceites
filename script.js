@@ -292,18 +292,6 @@ var products = {
         title: 'Grasa Azul de Calcio',
         category: 'grasas',
         description: '<strong>DESCRIPCIÓN:</strong><br><br>La grasa de calcio azul de Motorlub es un lubricante multipropósito a base de jabón de calcio y aceites minerales refinados. Ofrece una excelente adherencia, protección contra la oxidación y la corrosión, y es ideal para aplicaciones industriales y automotrices que requieren una lubricación duradera y eficiente<br><br><strong>BENEFICIOS</strong><br><br>La grasa de calcio azul de Motorlub proporciona una excelente adherencia y protección contra la oxidación y la corrosión. Es ideal para aplicaciones que requieren lubricación duradera y eficiente, mejorando la vida útil de los componentes en entornos industriales y automotrices<br><br><strong>TAMAÑO:</strong> Un cuarto'
-    },
-    41: {
-        img: 'img/R-ROJOLITRO.jpeg',
-        title: 'Liquido Refrigerante Rojo Litro',
-        category: 'refrigerantes',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>MOTOCOOLER LIQUIDO REFRIGERANTE Ofrece protección contra la corrosión de los componentes metálicos presentes en el motor como en el circuito de refrigeración.<br><br><strong>TAMAÑO:</strong> Un litro',
-    }, 
-    42: {
-        img: 'img/R-VERDEL.jpeg',
-        title: 'Liquido Refrigerante Verde Litro',
-        category: 'refrigerantes',
-        '<strong>DESCRIPCIÓN:</strong><br><br>MOTOCOOLER LIQUIDO REFRIGERANTE Ofrece protección contra la corrosión de los componentes metálicos presentes en el motor como en el circuito de refrigeración.<br><br><strong>TAMAÑO:</strong> Un litro',
     }
 };
 
