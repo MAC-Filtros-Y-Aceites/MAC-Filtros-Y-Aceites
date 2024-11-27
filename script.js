@@ -279,7 +279,7 @@ var products = {
         img: 'img/GRASA-SAE50.png',
         title: 'Valvulinas SAE50',
         category: 'aceites',
-        description: '<strong>DESCRIPCIÓN:</strong><br><br>La valvulina SAE 50 es un tipo de lubricante de alta viscosidad, ideal para aplicaciones que requieren una excelente protección y durabilidad en condiciones extremas de temperatura y carga. Se utiliza comúnmente en motores de vehículos pesados, maquinaria industrial y equipos que operan bajo cargas pesadas y altas temperaturas.<br><br><strong>BENEFICIOS</strong><br><br>La grasa SAE 50 es un lubricante de alta viscosidad ideal para proteger componentes en condiciones extremas de temperatura y carga. Ofrece una excelente estabilidad térmica, reduce la fricción, previene la oxidación y es versátil, adecuada para diversas aplicaciones industriales y de vehículos pesados.<br><br><strong>TAMAÑO:</strong> Un litro'
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>La valvulina SAE 50 es un aceite monogrado de alta calidad diseñado para motores de servicio pesado. Está formulado para proporcionar una excelente protección contra el desgaste, la corrosión y la herrumbre, especialmente en motores de gasolina y diésel que operan bajo condiciones severas.<br><br><strong>TAMAÑO:</strong> Un litro'
     },
     39: {
         img: 'img/GRASA-ROD.png',
@@ -292,6 +292,18 @@ var products = {
         title: 'Grasa Azul de Calcio',
         category: 'grasas',
         description: '<strong>DESCRIPCIÓN:</strong><br><br>La grasa de calcio azul de Motorlub es un lubricante multipropósito a base de jabón de calcio y aceites minerales refinados. Ofrece una excelente adherencia, protección contra la oxidación y la corrosión, y es ideal para aplicaciones industriales y automotrices que requieren una lubricación duradera y eficiente<br><br><strong>BENEFICIOS</strong><br><br>La grasa de calcio azul de Motorlub proporciona una excelente adherencia y protección contra la oxidación y la corrosión. Es ideal para aplicaciones que requieren lubricación duradera y eficiente, mejorando la vida útil de los componentes en entornos industriales y automotrices<br><br><strong>TAMAÑO:</strong> Un cuarto'
+    },
+    41: {
+        img: 'img/R-ROJOLITRO.jpeg',
+        title: 'Liquido Refrigerante Rojo Litro',
+        category: 'refrigerantes',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>MOTOCOOLER LIQUIDO REFRIGERANTE Ofrece protección contra la corrosión de los componentes metálicos presentes en el motor como en el circuito de refrigeración.<br><br><strong>TAMAÑO:</strong> Un litro',
+    }, 
+    42: {
+        img: 'img/R-VERDEL.jpeg',
+        title: 'Liquido Refrigerante Verde Litro',
+        category: 'refrigerantes',
+        '<strong>DESCRIPCIÓN:</strong><br><br>MOTOCOOLER LIQUIDO REFRIGERANTE Ofrece protección contra la corrosión de los componentes metálicos presentes en el motor como en el circuito de refrigeración.<br><br><strong>TAMAÑO:</strong> Un litro',
     }
 };
 
