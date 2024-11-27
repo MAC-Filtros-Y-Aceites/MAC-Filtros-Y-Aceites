@@ -745,3 +745,73 @@ footer p {
     object-fit: contain; /* Mantiene la proporción de la imagen */
     border-radius: 5px; /* Añade borde redondeado a las imágenes */
 }
+
+.enviar-correo {
+    background-color: #1f6db3; /* Azul principal */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Ajusta el ancho máximo */
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.enviar-correo h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 48%;
+}
+
+.form-group.left {
+    align-self: flex-start;
+}
+
+.form-group.right {
+    align-self: flex-end;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #fff;
+    color: #1f6db3;
+    border: 2px solid #1f6db3;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #1f6db3;
+    color: #fff;
+}
