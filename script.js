@@ -273,8 +273,25 @@ var products = {
         category: 'refrigerantes',
         description: '<strong>DESCRIPCIÓN:</strong><br><br>MOTOCOOLER LIQUIDO REFRIGERANTE Ofrece protección contra la corrosión de los componentes metálicos presentes en el motor como en el circuito de refrigeración.<br><br><strong>TAMAÑO:</strong> Un cuarto',
         additionalImg: ''  // Imagen adicional
+    },
+    38: {
+        img: 'img/GRASA-SAE50.png',
+        title: 'Aceite SAE50',
+        category: 'aceites',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>La grasa SAE 50 es un tipo de lubricante de alta viscosidad, ideal para aplicaciones que requieren una excelente protección y durabilidad en condiciones extremas de temperatura y carga. Se utiliza comúnmente en motores de vehículos pesados, maquinaria industrial y equipos que operan bajo cargas pesadas y altas temperaturas.<br><br><strong>BENEFICIOS</strong><br><br>La grasa SAE 50 es un lubricante de alta viscosidad ideal para proteger componentes en condiciones extremas de temperatura y carga. Ofrece una excelente estabilidad térmica, reduce la fricción, previene la oxidación y es versátil, adecuada para diversas aplicaciones industriales y de vehículos pesados.<br><br><strong>TAMAÑO:</strong> Un litro'
+    },
+    39: {
+        img: 'img/GRASA-ROD.png',
+        title: 'Grasa Rodamientos',
+        category: 'grasas',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>La grasa para rodamientos de Motorlub es un lubricante especializado diseñado para proporcionar una protección y reducción de la fricción en rodamientos y cojinetes. Su fórmula ayuda a prevenir el desgaste y la corrosión, manteniendo un rendimiento óptimo incluso en condiciones de alta carga y temperatura. Es ideal para aplicaciones industriales y automotrices que requieren una lubricación eficiente y duradera.<br><br><strong>BENEFICIOS</strong><br><br>La grasa para rodamientos de Motorlub ofrece una protección óptima contra el desgaste y la corrosión, mejora la durabilidad de los componentes, y reduce la fricción en condiciones de alta carga y temperatura. Es ideal para aplicaciones industriales y automotrices que requieren un rendimiento de lubricación eficiente y duradero.<br><br><strong>TAMAÑO:</strong> Un cuarto'
+    },
+    40: {
+        img: 'img/GRASA-AZUL.png',
+        title: 'Grasa Azul de Calcio',
+        category: 'grasas',
+        description: '<strong>DESCRIPCIÓN:</strong><br><br>La grasa de calcio azul de Motorlub es un lubricante multipropósito a base de jabón de calcio y aceites minerales refinados. Ofrece una excelente adherencia, protección contra la oxidación y la corrosión, y es ideal para aplicaciones industriales y automotrices que requieren una lubricación duradera y eficiente<br><br><strong>BENEFICIOS</strong><br><br>La grasa de calcio azul de Motorlub proporciona una excelente adherencia y protección contra la oxidación y la corrosión. Es ideal para aplicaciones que requieren lubricación duradera y eficiente, mejorando la vida útil de los componentes en entornos industriales y automotrices<br><br><strong>TAMAÑO:</strong> Un cuarto'
     }
-    // Agrega más productos aquí
 };
 
 function showProduct(productId) {
