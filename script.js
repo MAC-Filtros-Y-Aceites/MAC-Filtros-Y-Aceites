@@ -418,3 +418,14 @@ function showSection(sectionId) {
 }
 document.addEventListener('DOMContentLoaded', () => showSection('inicio'));
 
+function sendEmail(event) {
+    let parms = {
+        name : document.getElementById("name").value,
+        from_email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value,
+        to_name: "MAC Filtros y Aceites"
+    }
+
+    emailjs.send("service_rq8g74d", "template_xve0swd", parms).then(alert)
+}
